@@ -8,6 +8,7 @@ A service for uploading to transloadit.com
 
 ## Caveats
 
+* Requires XMLHttpRequest 2
 * Only works with secure uploads (https://transloadit.com/docs/authentication)
 * Only works with single files
 * Waits until the assembly is done processing before firing upload callback
