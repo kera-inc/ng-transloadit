@@ -20,7 +20,7 @@ A service for uploading to transloadit.com
 ## Usage
 
 ```javascript
-angular.module('myApp', ['ngTransloadit']).controller('MyCtrl', ['$scope', 'Transloadit', (function($scope, Transloadit) {
+angular.module('myApp', ['ng-transloadit']).controller('MyCtrl', ['$scope', 'Transloadit', (function($scope, Transloadit) {
   $scope.upload = function(file) {
     Transloadit.upload(file, {
       params: {
